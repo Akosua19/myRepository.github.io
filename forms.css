@@ -1,0 +1,115 @@
+/*STYLES FOR FORMS*/
+ *{
+     margin: 0px;
+     padding: 0px;
+ }
+
+ h1{
+     font-size: 40px;
+ }
+
+
+ h2{
+    font-size: 40px;
+ }
+
+ h2.many{
+    margin:20px;
+    
+ }
+#multiply{
+    font-size: 40px;
+}
+
+
+#allInAll{
+    height: 100px;
+    width: 250px;
+}
+
+.hers{
+   float: left;
+}
+
+.mine{
+    float: right;
+    margin-right: 25px;
+}
+
+.trial{
+    float: right;
+    margin-left: 10px;
+}
+ #btn{
+    padding: 5px;
+    background-color: #6495ed;
+    border-radius: 10px;
+    color: #000000;
+ }
+
+
+ #btn:active{
+     top: 2px;
+     cursor:grab;
+     background-color: #ff0000;
+ }
+
+
+.fooBar{
+    border: solid 1px #000000;
+    width: 200px;
+    margin-left: 50px;
+    background-color:#6495ed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 410px;
+}
+#submitButton{
+    padding: 3px;
+    background-color: #00ffff;
+    color: #000000;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+
+#resetButton{
+    padding: 3px;
+    background-color: #00ffff;
+    color: #000000;
+    font-style: italic;
+    border-radius: 5px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submitButton:hover{
+    position: relative;
+    cursor: grab;
+    top: 1px;
+    background-color: #778899;
+}
+
+#submitButton:active{
+    cursor: pointer;
+    background-color: #ccc;
+
+}
+
+#resetButton:hover{
+    position: static; 
+    top: 1px;
+    background-color: #a9a9a9;
+    padding: 2px;
+}
+
+#resetButton:active{
+   cursor: copy;
+   background-color: #daa520;
+}
+form input{
+    border-radius: 2px;
+}
+
